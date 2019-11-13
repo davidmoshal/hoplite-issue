@@ -1,0 +1,12 @@
+env: "production"
+
+redis:
+  url: "redis://localhost:6379/"
+  requestChannel: "REQUEST-CHANNEL"
+  responseChannel: "RESPONSE-CHANNEL"
+
+db:
+  home: "db"
+  configFile: "config/db.conf"
+  dbFile: "engine.db"
+  server: false
